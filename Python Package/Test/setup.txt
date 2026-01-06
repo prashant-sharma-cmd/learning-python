@@ -1,0 +1,4 @@
+Setup package directory
+And then run python setup.py sdist
+Run pip install twine
+Then, twine upload --skip-existing dist/*
